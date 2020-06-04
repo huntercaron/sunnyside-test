@@ -9,11 +9,15 @@ sections:
   label: Posts
   create: all
   match: "**/*"
+  templates:
+  - hello-blog
 - type: directory
   path: src/content/projects
   label: Projects
   create: all
   match: "**/*"
+  templates:
+  - forests
 - type: document
   path: src/content/about.md
   label: About
